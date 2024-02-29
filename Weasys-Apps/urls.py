@@ -15,8 +15,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
+from .views import image_generator_view
 
 urlpatterns = [
     path('', include('hello_azure.urls')),
     path('admin/', admin.site.urls),
+    path('', image_generator_view, name='image_generator'),
+
 ]
+
+
+# Path: Weasys-Apps/forms.py    

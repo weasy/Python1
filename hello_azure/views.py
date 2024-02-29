@@ -1,6 +1,10 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
+from .forms import ImageGeneratorForm
+
+
+# Add any necessary imports for your new view here
 
 def index(request):
     print('Request for index page received')
@@ -20,3 +24,8 @@ def hello(request):
             return render(request, 'hello_azure/hello.html', context)
     else:
         return redirect('index')
+
+# Add your new view here
+def ImageGeneratorView(request):
+    # Your view code goes here
+    pass

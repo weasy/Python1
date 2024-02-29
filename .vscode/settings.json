@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/3bf0331e-db00-406c-afdb-186138ea74e0/resourceGroups/weasy_group/providers/Microsoft.Web/sites/weasy",
+    "appService.deploySubpath": "."
+}
