@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'quickstartproject.urls'
+ROOT_URLCONF = 'Weasys-Apps.urls'
 
 TEMPLATES = [
     {
@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'quickstartproject.wsgi.application'
+WSGI_APPLICATION = 'Weasys-Apps.wsgi.application'
 
 
 # Database
