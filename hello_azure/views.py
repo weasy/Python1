@@ -1,12 +1,16 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
+import os 
+import sys
 from forms import ImageGeneratorForm
 
 import logging
 
 logger = logging.getLogger('azure.mgmt.resource')
-
+logger.setLevel(logging.DEBUG)
+handler = logging.StreamHandler(stream=sys.stdout)
+logger.addHandler(handler)
 # Add any necessary imports for your new view here
 
 def index(request):
