@@ -3,6 +3,9 @@ from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from forms import ImageGeneratorForm
 
+import logging
+
+logger = logging.getLogger('azure.mgmt.resource')
 
 # Add any necessary imports for your new view here
 
