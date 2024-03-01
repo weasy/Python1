@@ -5,11 +5,7 @@ import os
 import sys
 from forms import ImageGeneratorForm
 
-import logging
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
-handler = logging.StreamHandler(stream=sys.stderr)
-logger.addHandler(handler)
+
 # Add any necessary imports for your new view here
 
 def index(request):

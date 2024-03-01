@@ -3,7 +3,7 @@ import sys
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
-from .forms import ImageGeneratorForm
+from forms import ImageGeneratorForm
 
 
 # Add any necessary imports for your new view here
