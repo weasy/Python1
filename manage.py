@@ -2,6 +2,7 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
+DEFAULT_PORT = "8002"
 
 
 def main():
