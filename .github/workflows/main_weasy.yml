@@ -64,4 +64,4 @@ jobs:
         with:
           app-name: 'weasy'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A9BD144EEC924CA2AADE04B73DDBDBA8 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_109638F2634D430C9AC752EE2E190A3E }}
