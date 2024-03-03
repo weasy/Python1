@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jim\\OneDrive\\Documents\\Repos\\Python Project 1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3968B2-68F1-4DB1-BE42-B3B56B4C537E}|Python Project 1.pyproj|C:\\Users\\jim\\OneDrive\\Documents\\Repos\\Python Project 1\\Weasys-Apps\\settings.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8E3968B2-68F1-4DB1-BE42-B3B56B4C537E}|Python Project 1.pyproj|solutionrelative:Weasys-Apps\\settings.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3968B2-68F1-4DB1-BE42-B3B56B4C537E}|Python Project 1.pyproj|C:\\Users\\jim\\OneDrive\\Documents\\Repos\\Python Project 1\\Weasys-Apps\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8E3968B2-68F1-4DB1-BE42-B3B56B4C537E}|Python Project 1.pyproj|solutionrelative:Weasys-Apps\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3968B2-68F1-4DB1-BE42-B3B56B4C537E}|Python Project 1.pyproj|C:\\Users\\jim\\OneDrive\\Documents\\Repos\\Python Project 1\\Weasys-Apps\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8E3968B2-68F1-4DB1-BE42-B3B56B4C537E}|Python Project 1.pyproj|solutionrelative:Weasys-Apps\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3968B2-68F1-4DB1-BE42-B3B56B4C537E}|Python Project 1.pyproj|C:\\Users\\jim\\OneDrive\\Documents\\Repos\\Python Project 1\\Weasys-Apps\\apps.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8E3968B2-68F1-4DB1-BE42-B3B56B4C537E}|Python Project 1.pyproj|solutionrelative:Weasys-Apps\\apps.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "settings.py",
+              "DocumentMoniker": "C:\\Users\\jim\\OneDrive\\Documents\\Repos\\Python Project 1\\Weasys-Apps\\settings.py",
+              "RelativeDocumentMoniker": "Weasys-Apps\\settings.py",
+              "ToolTip": "C:\\Users\\jim\\OneDrive\\Documents\\Repos\\Python Project 1\\Weasys-Apps\\settings.py",
+              "RelativeToolTip": "Weasys-Apps\\settings.py",
+              "ViewState": "AQIAABQAAADANDMzM7MSwB8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-03-03T17:55:28.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "apps.py",
+              "DocumentMoniker": "C:\\Users\\jim\\OneDrive\\Documents\\Repos\\Python Project 1\\Weasys-Apps\\apps.py",
+              "RelativeDocumentMoniker": "Weasys-Apps\\apps.py",
+              "ToolTip": "C:\\Users\\jim\\OneDrive\\Documents\\Repos\\Python Project 1\\Weasys-Apps\\apps.py",
+              "RelativeToolTip": "Weasys-Apps\\apps.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-03-02T16:37:35.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "urls.py",
+              "DocumentMoniker": "C:\\Users\\jim\\OneDrive\\Documents\\Repos\\Python Project 1\\Weasys-Apps\\urls.py",
+              "RelativeDocumentMoniker": "Weasys-Apps\\urls.py",
+              "ToolTip": "C:\\Users\\jim\\OneDrive\\Documents\\Repos\\Python Project 1\\Weasys-Apps\\urls.py",
+              "RelativeToolTip": "Weasys-Apps\\urls.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-03-02T16:28:02.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{75504045-d02f-44e5-bf60-5f60df380e8b}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "views.py",
+              "DocumentMoniker": "C:\\Users\\jim\\OneDrive\\Documents\\Repos\\Python Project 1\\Weasys-Apps\\views.py",
+              "RelativeDocumentMoniker": "Weasys-Apps\\views.py",
+              "ToolTip": "C:\\Users\\jim\\OneDrive\\Documents\\Repos\\Python Project 1\\Weasys-Apps\\views.py",
+              "RelativeToolTip": "Weasys-Apps\\views.py",
+              "ViewState": "AQIAABkAAAAAZGZmZmYEwAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-03-02T15:59:54.393Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

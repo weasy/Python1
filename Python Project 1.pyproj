@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8e3968b2-68f1-4db1-be42-b3b56b4c537e}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>manage.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>Global|PythonCore|3.12</InterpreterId>
+    <TestFramework>Pytest</TestFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="hello_azure\templates\hello_azure\hello.html" />
+    <Content Include="hello_azure\templates\hello_azure\index.html" />
+    <Content Include="requirements.txt" />
+    <Content Include="static\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="static\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="static\bootstrap\css\bootstrap-grid.rtl.css" />
+    <Content Include="static\bootstrap\css\bootstrap-grid.rtl.min.css" />
+    <Content Include="static\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="static\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="static\bootstrap\css\bootstrap-reboot.rtl.css" />
+    <Content Include="static\bootstrap\css\bootstrap-reboot.rtl.min.css" />
+    <Content Include="static\bootstrap\css\bootstrap-utilities.css" />
+    <Content Include="static\bootstrap\css\bootstrap-utilities.min.css" />
+    <Content Include="static\bootstrap\css\bootstrap-utilities.rtl.css" />
+    <Content Include="static\bootstrap\css\bootstrap-utilities.rtl.min.css" />
+    <Content Include="static\bootstrap\css\bootstrap.css" />
+    <Content Include="static\bootstrap\css\bootstrap.min.css" />
+    <Content Include="static\bootstrap\css\bootstrap.rtl.css" />
+    <Content Include="static\bootstrap\css\bootstrap.rtl.min.css" />
+    <Content Include="static\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="static\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="static\bootstrap\js\bootstrap.esm.js" />
+    <Content Include="static\bootstrap\js\bootstrap.esm.min.js" />
+    <Content Include="static\bootstrap\js\bootstrap.js" />
+    <Content Include="static\bootstrap\js\bootstrap.min.js" />
+    <Content Include="static\favicon.ico" />
+    <Content Include="static\images\azure-icon.svg" />
+    <Content Include="Weasys-Apps\image_generator.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="hello_azure\admin.py" />
+    <Compile Include="hello_azure\apps.py" />
+    <Compile Include="hello_azure\forms.py" />
+    <Compile Include="hello_azure\migrations\__init__.py" />
+    <Compile Include="hello_azure\models.py" />
+    <Compile Include="hello_azure\tests.py" />
+    <Compile Include="hello_azure\urls.py" />
+    <Compile Include="hello_azure\views.py" />
+    <Compile Include="hello_azure\__init__.py" />
+    <Compile Include="manage.py" />
+    <Compile Include="Weasys-Apps\asgi.py" />
+    <Compile Include="Weasys-Apps\forms.py" />
+    <Compile Include="Weasys-Apps\production.py" />
+    <Compile Include="Weasys-Apps\settings.py" />
+    <Compile Include="Weasys-Apps\urls.py" />
+    <Compile Include="Weasys-Apps\views.py" />
+    <Compile Include="Weasys-Apps\wsgi.py" />
+    <Compile Include="Weasys-Apps\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="hello_azure" />
+    <Folder Include="hello_azure\migrations" />
+    <Folder Include="hello_azure\templates\" />
+    <Folder Include="hello_azure\templates\hello_azure" />
+    <Folder Include="static" />
+    <Folder Include="static\bootstrap\" />
+    <Folder Include="static\bootstrap\css" />
+    <Folder Include="static\bootstrap\js" />
+    <Folder Include="static\images" />
+    <Folder Include="Weasys-Apps" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.12" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include=".venv\">
+      <Id>.venv</Id>
+      <Description>.venv (Python 3.11)</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <Version>3.11</Version>
+      <Architecture>X64</Architecture>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
