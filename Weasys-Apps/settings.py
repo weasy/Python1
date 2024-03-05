@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 import os
 from pathlib import Path
-CSRF_TRUSTED_ORIGINS = ['http://weasy.azurewebsites.net','http://127.0.0.1','http://10.0.0.95']
+CSRF_TRUSTED_ORIGINS = ['http://weasy.azurewebsites.net', 'http://127.0.0.1', 'http://10.0.0.95']
 '''
 LOGGING = {
     'version': 1,

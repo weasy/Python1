@@ -2,11 +2,12 @@ import os
 from django.shortcuts import render
 from .forms import ImageGeneratorForm
 import openai
-
+from django.views.decorators.csrf import csrf_exempt
 
     # Your view logic here
 # Set the API key
 openai.api_key = os.environ.get("OPENAI_API_KEY")
+@csrf_exempt
 def image_generator_view(request):
     if request.method == 'POST':
         form = ImageGeneratorForm(request.POST)
