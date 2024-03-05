@@ -2,7 +2,6 @@ import os
 from django.shortcuts import render
 from .forms import ImageGeneratorForm
 import openai
-from django.views.decorators.csrf import csrf_protect
 
 
     # Your view logic here
