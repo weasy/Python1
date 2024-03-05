@@ -1,0 +1,9 @@
+# image_generator.html
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Generate</button>
+</form>
+{% if image_url %}
+    <img src="{{ image_url }}" alt="Generated image">
+{% endif %}
