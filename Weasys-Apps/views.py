@@ -1,20 +1,11 @@
 import os
-import openai as OpenAI
+import sys
 from django.shortcuts import render
 from .forms import ImageGeneratorForm
+import openai
 
-OpenAI.api_key = os.environ["OPENAI_API_KEY"]
-
-def generate_image(prompt: str, model: str) -> None:
-    client = OpenAI()
-    response = client.images.generate(
-        model=model,
-        prompt=prompt,
-        size="1024x1024",
-        quality="standard",
-        n=1,
-    )
-    return response
+# Set the API key
+openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 def image_generator_view(request):
     if request.method == 'POST':
@@ -22,12 +13,20 @@ def image_generator_view(request):
         if form.is_valid():
             prompt = form.cleaned_data['prompt']
             model = "dall-e-3"
-            response = generate_image(prompt, model)
-            if response is not None:
-                image_url = response.data[0].url
-                return render(request, 'Weasys-Apps/image_generator.html', {'form': form, 'image_url': image_url})
-        else:
-            form = ImageGeneratorForm()
+            try:
+                response = openai.images.generate(
+                    model=model,
+                    prompt=prompt,
+                    size="1024x1024",
+                    quality="standard",
+                    n=1,
+                )
+                if response is not None:
+                    image_url = response.data[0].url
+                    return render(request, 'Weasys-Apps/image_generator.html', {'form': form, 'image_url': image_url})
+            except Exception as e:
+                print(f"Error during image generation: {e}")
+                # Handle other exceptions (e.g., log the error)
     else:
         form = ImageGeneratorForm()
     return render(request, 'Weasys-Apps/image_generator.html', {'form': form})
