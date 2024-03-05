@@ -1,5 +1,4 @@
 import os
-import sys
 from django.shortcuts import render
 from .forms import ImageGeneratorForm
 import openai
