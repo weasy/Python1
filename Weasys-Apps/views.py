@@ -8,7 +8,6 @@ from django.views.decorators.csrf import csrf_protect
     # Your view logic here
 # Set the API key
 openai.api_key = os.environ.get("OPENAI_API_KEY")
-@csrf_protect
 def image_generator_view(request):
     if request.method == 'POST':
         form = ImageGeneratorForm(request.POST)
